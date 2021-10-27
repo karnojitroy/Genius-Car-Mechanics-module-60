@@ -8,7 +8,7 @@ const Booking = () => {
     useEffect(() => {
         // const url = `http://localhost:5000/services/${serviceId}`
         // console.log(url);
-        fetch(`https://agile-hamlet-98410.herokuapp.com/${_id}`)
+        fetch(`https://fathomless-chamber-12973.herokuapp.com/${_id}`)
             .then(res => res.json())
             .then(data => setService(data))
     }, [_id]);
